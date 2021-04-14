@@ -32,32 +32,29 @@ nav#menu ul li {
     text-align: center;
     color: white;
 }
-#castle-home{
-    display: flex;
-    justify-content: center;
+#container-primary{
     width: 100%;
     height: 100vh;
-}
-#castle-home figure:nth-child(1){
-    position: absolute;
-    top: 5vh;
-    background-color:#000022;
-    width: 12vw;
-    height: 25vh;
-    border: 3px solid gray;
-    border-radius: 50%;
-}
-#castle-home figure #profile{
-    width: 100%;
-    height: auto;
-}
-#castle-home figcaption{
+    display: flex;
+    justify-content: center;
+    text-align: center;
     color: white;
     font-size: 1.5em;
     font-weight: bold;
-    text-align: center;
+    background-image: url('./asset/castle.png');
 }
-#castle-home figure img{
+#container-primary figure img{
+    border: 2px solid gray;
+    border-radius: 100%;
+}
+#cloud{
+    position: absolute;
+    z-index: 2;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    background-image: url('./asset/cloud.png');
+}
+#content{
+    position: absolute;
+    z-index: 1;
 }
