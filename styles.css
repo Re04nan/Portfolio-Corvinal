@@ -44,17 +44,76 @@ nav#menu ul li {
     background-image: url('./asset/castle.png');
 }
 #container-primary figure img{
+    margin-top: 10%;
     border: 2px solid gray;
     border-radius: 100%;
 }
 #cloud{
-    position: absolute;
-    z-index: 2;
+    position: relative;
     width: 100%;
-    height: 100%;
-    background-image: url('./asset/cloud.png');
+    height: 100vh;
+    overflow: hidden;
 }
 #content{
     position: absolute;
-    z-index: 1;
+    z-index: 100;
+}
+.cloud1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 600px;
+    z-index: 1000;
+    animation: animateCloud 50s linear infinite;
+}
+.cloud2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 500px;
+    z-index: 1000;
+    animation: animateCloud 35s linear infinite;
+}
+.cloud3{
+    position: absolute;
+    top: 0;
+    left: 0;
+    max-width: 600px;
+    z-index: 1000;
+    animation: animateCloud 80s linear infinite;
+}
+.cloud4{
+    position: absolute;
+    top: 200px;
+    left: 0;
+    max-width: 300px;
+    z-index: 1000;
+    animation: animateCloud 70s linear infinite;
+    animation-delay: -20s;
+}
+.cloud5{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    max-width: 500px;
+    z-index: 1000;
+    animation: animateCloud 40s linear infinite;
+    animation-delay: -5s;
+}
+.cloud6{
+    position: absolute;
+    top: 75px;
+    left: 0;
+    max-width: 400px;
+    z-index: 1000;
+    animation: animateCloud 30s linear infinite;
+    animation-delay: -10s;
+}
+@keyframes animateCloud {
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform: translateX(400%) scale(1.5);
+    }
 }
