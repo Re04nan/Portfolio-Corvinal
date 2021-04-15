@@ -60,7 +60,7 @@ nav#menu ul li {
 }
 .cloud1{
     position: absolute;
-    top: 0;
+    top: 10;
     left: 0;
     max-width: 600px;
     z-index: 1000;
@@ -68,7 +68,7 @@ nav#menu ul li {
 }
 .cloud2{
     position: absolute;
-    top: 0;
+    top: 20;
     left: 0;
     max-width: 500px;
     z-index: 1000;
@@ -76,7 +76,7 @@ nav#menu ul li {
 }
 .cloud3{
     position: absolute;
-    top: 0;
+    top: 30;
     left: 0;
     max-width: 600px;
     z-index: 1000;
@@ -84,7 +84,7 @@ nav#menu ul li {
 }
 .cloud4{
     position: absolute;
-    top: 200px;
+    top: 220px;
     left: 0;
     max-width: 300px;
     z-index: 1000;
@@ -93,7 +93,7 @@ nav#menu ul li {
 }
 .cloud5{
     position: absolute;
-    top: 150px;
+    top: 180px;
     left: 0;
     max-width: 500px;
     z-index: 1000;
@@ -111,7 +111,7 @@ nav#menu ul li {
 }
 @keyframes animateCloud {
     0%{
-        transform: translateX(-100%);
+        transform: translateX(-100%) scale(1);
     }
     100%{
         transform: translateX(400%) scale(1.5);
