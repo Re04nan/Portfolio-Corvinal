@@ -14,6 +14,7 @@ main {
     height: 100vh;
 }
 nav#menu {
+    z-index: 2000;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -42,6 +43,7 @@ nav#menu ul li {
     font-size: 1.5em;
     font-weight: bold;
     background-image: url('./asset/castle.png');
+    user-select: none;
 }
 #container-primary figure img{
     margin-top: 10%;
@@ -58,13 +60,16 @@ nav#menu ul li {
     position: absolute;
     z-index: 100;
 }
+#content p{
+    margin-top: 10vh;
+}
 .cloud1{
     position: absolute;
     top: 10;
     left: 0;
     max-width: 600px;
     z-index: 1000;
-    animation: animateCloud 50s linear infinite;
+    animation: animateCloud 60s linear infinite;
 }
 .cloud2{
     position: absolute;
@@ -72,7 +77,7 @@ nav#menu ul li {
     left: 0;
     max-width: 500px;
     z-index: 1000;
-    animation: animateCloud 35s linear infinite;
+    animation: animateCloud 45s linear infinite;
 }
 .cloud3{
     position: absolute;
@@ -89,7 +94,7 @@ nav#menu ul li {
     max-width: 300px;
     z-index: 1000;
     animation: animateCloud 70s linear infinite;
-    animation-delay: -20s;
+    animation-delay: -22s;
 }
 .cloud5{
     position: absolute;
@@ -97,8 +102,8 @@ nav#menu ul li {
     left: 0;
     max-width: 500px;
     z-index: 1000;
-    animation: animateCloud 40s linear infinite;
-    animation-delay: -5s;
+    animation: animateCloud 50s linear infinite;
+    animation-delay: -7s;
 }
 .cloud6{
     position: absolute;
@@ -107,7 +112,7 @@ nav#menu ul li {
     max-width: 400px;
     z-index: 1000;
     animation: animateCloud 30s linear infinite;
-    animation-delay: -10s;
+    animation-delay: -12s;
 }
 @keyframes animateCloud {
     0%{
