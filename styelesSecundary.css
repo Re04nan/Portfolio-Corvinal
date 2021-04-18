@@ -3,6 +3,7 @@
     height: 100vh;
     display: flex;
     justify-content: center;
+    flex-direction: column;
     text-align: center;
     color: white;
     font-size: 1.5em;
@@ -10,10 +11,47 @@
     background-color: #000022;
 }
 #container-secundary header{
+    height: 20vh;
     color: #FFE3C2;
     font-size: 2em;
     line-height: 0.8em;
 }
 #container-secundary header span{
     font-size: 0.6em;
+}
+#container-secundary article{
+    height: 80vh;
+    text-align: justify;
+    padding: 20px;
+}
+#container-secundary article h2{
+    width: 100vw;
+    margin-bottom: 20px;
+    font-size: 1.4em;
+    line-height: 1em;
+}
+#container-secundary article h3{
+    font-size: 0.9em;
+    line-height: 1em;
+    text-align: start;
+    width: 30vw;
+}
+#container-secundary article p{
+    margin-top: 30px;
+    font-size: 0.8em;
+    line-height: 1em;
+    width: 25vw;
+}
+#container-secundary article figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    height: 40vh;
+    position: absolute;
+    right: 20vw;
+    top: 140vh;
+}
+#container-secundary article figure img{
+    width: 100%;
 }
