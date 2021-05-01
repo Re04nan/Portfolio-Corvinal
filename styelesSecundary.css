@@ -8,16 +8,16 @@
     font-size: 2.8em;
     line-height: 0.8em;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
 }
 #container-secundary header span{
     font-size: 0.8em;
 }
-#container-secundary article {
-    height: 80vh;
+#container-secundary #article-one {
+    height: 75vh;
     background-color: #000022;
 }
-#container-secundary article h2 {
+#container-secundary #article-one h2 {
     height: 14vh;
     font-size: 2em;
     line-height: 1em;
@@ -25,11 +25,11 @@
     color: white;
     margin-bottom: 15px;
 }
-.container-text{
+.container-text-left{
     width: 40vw;
     height: 40vh;
 }
-#container-secundary article h3 {
+#container-secundary #article-one h3 {
     height: 10vh;
     font-size: 1.4em;
     line-height: 1.2em;
@@ -37,26 +37,72 @@
     margin-bottom: 20px;
     color: white;
 }
-#container-secundary article figure{
+#container-secundary #article-one figure{
     position: absolute;
     right: 14vw;
     top: 135vh;
     width: 45vw;
     height: 40vh;
 }
-#container-secundary article figure img{
+#container-secundary #article-one figure img{
     width: 100%;
 }
-#container-secundary article p {
+#container-secundary #article-one p {
     padding: 10px 50px;
     text-align: justify;
     font-size: 1em;
     line-height: 1.4em;
     color: white;
 }
-#container-secundary article p a{
+#container-secundary p a{
     text-decoration:underline;
     color: #FFE3C2;
     font-weight: bold;
     cursor: pointer;
+}
+#container-secundary #article-two{
+    height: 80vh;
+    background-color: #000022;
+}
+#container-secundary #article-two figure{
+    position: absolute;
+    width: 30vw;
+    height: 40vh;
+    left: 5vw;
+    top: 195vh;
+}
+#container-secundary #article-two figure img{
+    width: 100%;
+    filter: grayscale(50%);
+}
+#container-secundary #article-two figure img:hover{
+    filter: grayscale(0%);
+}
+#container-secundary #article-two h2 {
+    height: 14vh;
+    font-size: 2em;
+    line-height: 1em;
+    padding-left: 40vw;
+    color: white;
+    margin-bottom: 15px;
+}
+.container-text-right{
+    width: 80vw;
+    height: 40vh;
+    padding-left: 40vw;
+}
+#container-secundary #article-two h3 {
+    height: 10vh;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    padding: 5px 0px 0px;
+    margin-bottom: 20px;
+    color: white;
+}
+#container-secundary #article-two p {
+    padding: 10px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.4em;
+    color: white;
 }
