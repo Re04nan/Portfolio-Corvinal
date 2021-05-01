@@ -1,57 +1,62 @@
 #container-secundary{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    font-size: 1.5em;
-    font-weight: bold;
+    height: auto;
     background-color: #000022;
 }
 #container-secundary header{
     height: 20vh;
     color: #FFE3C2;
-    font-size: 2em;
+    font-size: 2.8em;
     line-height: 0.8em;
+    text-align: center;
+    padding: 10px;
 }
 #container-secundary header span{
-    font-size: 0.6em;
-}
-#container-secundary article{
-    height: 80vh;
-    text-align: justify;
-    padding: 20px;
-}
-#container-secundary article h2{
-    width: 100vw;
-    margin-bottom: 20px;
-    font-size: 1.4em;
-    line-height: 1em;
-}
-#container-secundary article h3{
-    font-size: 0.9em;
-    line-height: 1em;
-    text-align: start;
-    width: 30vw;
-}
-#container-secundary article p{
-    margin-top: 30px;
     font-size: 0.8em;
-    line-height: 1em;
-    width: 25vw;
 }
-#container-secundary article figure{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#container-secundary article {
+    height: 80vh;
+    background-color: #000022;
+}
+#container-secundary article h2 {
+    height: 14vh;
+    font-size: 2em;
+    line-height: 1em;
+    padding: 5px 40px;
+    color: white;
+    margin-bottom: 15px;
+}
+.container-text{
     width: 40vw;
     height: 40vh;
+}
+#container-secundary article h3 {
+    height: 10vh;
+    font-size: 1.4em;
+    line-height: 1.2em;
+    padding: 5px 40px 0px;
+    margin-bottom: 20px;
+    color: white;
+}
+#container-secundary article figure{
     position: absolute;
-    right: 20vw;
-    top: 140vh;
+    right: 14vw;
+    top: 135vh;
+    width: 45vw;
+    height: 40vh;
 }
 #container-secundary article figure img{
     width: 100%;
+}
+#container-secundary article p {
+    padding: 10px 50px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 1.4em;
+    color: white;
+}
+#container-secundary article p a{
+    text-decoration:underline;
+    color: #FFE3C2;
+    font-weight: bold;
+    cursor: pointer;
 }
