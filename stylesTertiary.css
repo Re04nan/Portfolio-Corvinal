@@ -1,0 +1,13 @@
+#container-tertiary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000022;
+}
+#container-tertiary figure{
+    width: 30vw;
+}
+#container-tertiary figure img{
+    width: 100%;
+}
