@@ -11,3 +11,14 @@
 #container-tertiary figure img{
     width: 100%;
 }
+#container-tertiary #ball01{
+    animation: ball infinite linear 4s alternate;  
+}
+@keyframes ball {
+    from {
+
+    }
+    to {
+        transform: rotate(360deg) scale(1.2) translate(4vw, 6vh);
+    }
+}
