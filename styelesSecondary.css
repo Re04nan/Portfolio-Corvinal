@@ -1,8 +1,8 @@
-#container-secundary{
+#container-secondary{
     height: auto;
     background-color: #000022;
 }
-#container-secundary header{
+#container-secondary header{
     height: 20vh;
     color: #FFE3C2;
     font-size: 2.8em;
@@ -10,14 +10,14 @@
     text-align: center;
     padding: 20px;
 }
-#container-secundary header span{
+#container-secondary header span{
     font-size: 0.8em;
 }
-#container-secundary #article-one {
+#container-secondary #article-one {
     height: 75vh;
     background-color: #000022;
 }
-#container-secundary #article-one h2 {
+#container-secondary #article-one h2 {
     height: 14vh;
     font-size: 2em;
     line-height: 1em;
@@ -29,7 +29,7 @@
     width: 40vw;
     height: 40vh;
 }
-#container-secundary #article-one h3 {
+#container-secondary #article-one h3 {
     height: 10vh;
     font-size: 1.4em;
     line-height: 1.2em;
@@ -37,48 +37,48 @@
     margin-bottom: 20px;
     color: white;
 }
-#container-secundary #article-one figure{
+#container-secondary #article-one figure{
     position: absolute;
     right: 14vw;
     top: 135vh;
     width: 45vw;
     height: 40vh;
 }
-#container-secundary #article-one figure img{
+#container-secondary #article-one figure img{
     width: 100%;
 }
-#container-secundary #article-one p {
+#container-secondary #article-one p {
     padding: 10px 50px;
     text-align: justify;
     font-size: 1em;
     line-height: 1.4em;
     color: white;
 }
-#container-secundary p a{
+#container-secondary p a{
     text-decoration:underline;
     color: #FFE3C2;
     font-weight: bold;
     cursor: pointer;
 }
-#container-secundary #article-two{
+#container-secondary #article-two{
     height: 80vh;
     background-color: #000022;
 }
-#container-secundary #article-two figure{
+#container-secondary #article-two figure{
     position: absolute;
     width: 30vw;
     height: 40vh;
     left: 5vw;
     top: 195vh;
 }
-#container-secundary #article-two figure img{
+#container-secondary #article-two figure img{
     width: 100%;
     filter: grayscale(50%);
 }
-#container-secundary #article-two figure img:hover{
+#container-secondary #article-two figure img:hover{
     filter: grayscale(0%);
 }
-#container-secundary #article-two h2 {
+#container-secondary #article-two h2 {
     height: 14vh;
     font-size: 2em;
     line-height: 1em;
@@ -91,7 +91,7 @@
     height: 40vh;
     padding-left: 40vw;
 }
-#container-secundary #article-two h3 {
+#container-secondary #article-two h3 {
     height: 10vh;
     font-size: 1.4em;
     line-height: 1.2em;
@@ -99,7 +99,7 @@
     margin-bottom: 20px;
     color: white;
 }
-#container-secundary #article-two p {
+#container-secondary #article-two p {
     padding: 10px;
     text-align: justify;
     font-size: 1em;
