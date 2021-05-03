@@ -51,6 +51,7 @@ main {
     font-size: 1.5em;
     font-weight: bold;
     background-image: url('./asset/castle.png');
+    background-attachment: fixed;
     user-select: none;
 }
 #container-primary figure img{
