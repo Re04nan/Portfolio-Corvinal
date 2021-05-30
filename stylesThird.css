@@ -1,0 +1,12 @@
+#container-third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000022;
+    padding: 5vw;
+}
+#container-third header{
+    color: white;
+    font-size: 2.8em;
+}
